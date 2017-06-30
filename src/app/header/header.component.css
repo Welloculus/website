@@ -1,0 +1,22 @@
+@media (min-width: 1200px){
+     .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+         width: 1170px;
+     }
+}
+.text-left {
+    text-align: left;
+}
+#sp-logo{
+     float: left;
+}
+#sp-menu{
+     margin-left: 0px;
+     margin-right: 0px;
+}
+.container {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+li a{
+     cursor: pointer;
+}

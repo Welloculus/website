@@ -1,0 +1,21 @@
+#sp-footer-wrapper {
+    padding: 10px 0px 0px !important;
+}
+#sp-footerbottom-wrapper {
+    padding: 15px 0px !important;
+}
+.btn.social {
+    padding: 20px 20px;
+}
+a{
+     cursor: pointer;
+}
+
+#sp-footer1 [class^="icon-"], [class*=" icon-"] {
+    position: absolute;
+    top: 40px;
+    margin-left: -12px;
+}
+i.icon-facebook {
+    margin-left: -6px!important;
+}
