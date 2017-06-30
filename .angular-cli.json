@@ -1,0 +1,75 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "name": "welloculus"
+  },
+  "apps": [
+    {
+      "root": "src",
+      "outDir": "public",
+      "assets": [
+        "assets",
+        "favicon.ico"
+      ],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "test": "test.ts",
+      "tsconfig": "tsconfig.app.json",
+      "testTsconfig": "tsconfig.spec.json",
+      "prefix": "app",
+      "styles": [
+           "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+           "../src/assets/css/animate.css",
+           "../src/assets/css/bootstrap-responsive.min.css",
+           "../src/assets/css/custom.css",
+           "../src/assets/css/error.css",
+           "../src/assets/css/jquery.mCustomScrollbar.css",
+           "../src/assets/css/offline.css",
+           "../src/assets/css/template.css",
+           "../src/assets/css/presets/preset1.css"
+      ],
+      "scripts": [
+           "../node_modules/jquery/dist/jquery.js",
+           "../src/assets/js/bootstrap.min.js",
+           "../src/assets/js/jquery.singlePageNav.min.js",
+           "../src/assets/js/modernizr.custom.92416.js",
+           "../src/assets/js/topfixed.js",
+           "../src/assets/js/wow.min.js"
+      ],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    }
+  ],
+  "addons": [
+    "../node_modules/font-awesome/fonts/*.+(otf|eot|svg|ttf|woff|woff2)"
+  ],
+  "e2e": {
+    "protractor": {
+      "config": "./protractor.conf.js"
+    }
+  },
+  "lint": [
+    {
+      "project": "src/tsconfig.app.json"
+    },
+    {
+      "project": "src/tsconfig.spec.json"
+    },
+    {
+      "project": "e2e/tsconfig.e2e.json"
+    }
+  ],
+  "test": {
+    "karma": {
+      "config": "./karma.conf.js"
+    }
+  },
+  "defaults": {
+    "styleExt": "css",
+    "component": {}
+  }
+}
