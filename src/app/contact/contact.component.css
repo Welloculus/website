@@ -1,0 +1,10 @@
+#sp-contact-wrapper {
+    padding: 80px 0 100px !important;
+}
+.sp_qc_clr {
+    clear: both;
+    margin-bottom: 10px;
+}
+#sp-contact-wrapper .sp_quickcontact textarea#message {
+    margin-top: -170px;
+}

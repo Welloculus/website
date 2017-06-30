@@ -1,0 +1,27 @@
+<section id="sp-contact-wrapper" class=" "><div class="container"><div class="row-fluid" id="contact">
+<div id="sp-contact" class="span12">
+<h4>Ask a question</h4>
+<div id="warning" class="alert alert-danger" style="display:none;">
+	<strong>Warning!</strong> Due to technical issue, mail couldn't sent!
+</div>
+<div id="success" class="alert alert-success" style="display:none;">
+  <strong>Success!</strong> Your mail has been successfully sent!
+</div>
+<div id="sp_quickcontact141" class="sp_quickcontact">
+	<form action="https://formspree.io/connect@transility.com" method="POST"  #form="ngForm" (ngSubmit)="mailForm(form.value)">
+	<div id="sp_qc_status"></div>
+	<div class="sp_qc_clr"></div>
+	<input type="text" name="name" id="name" ngModel placeholder="Name...">
+	<div class="sp_qc_clr"></div>
+	<input type="email" name="_replyto" id="_replyto" ngModel placeholder="Email...">
+	<div class="sp_qc_clr"></div>
+	<input type="text" name="_subject" id="_subject" ngModel placeholder="Subject...">
+	<div class="sp_qc_clr"></div>
+	<textarea name="InputMessage" id="message" ngModel placeholder="Message..." cols="" rows=""></textarea>
+	<div class="sp_qc_clr"></div>
+	<button id="sp_qc_submit" class="btn btn-primary" type="submit" name="submit">SEND</button>
+	<div class="sp_qc_clr"></div>
+	</form>
+</div>
+</div>
+</div></div></section>
