@@ -26,7 +26,7 @@ constructor(public http: Http) { }
      let headers = new Headers({ 'Content-Type': 'application/json' });
      let options = new RequestOptions({ headers: headers });
 
-     this.http.post("http://formspree.io/saurav.kumar@impetus.co.in", value, options).toPromise()
+     this.http.post("https://formspree.io/welloculus@gmail.com", value, options).toPromise()
 	           .then(this.extractData)
                    .catch(this.handleErrorPromise);
 

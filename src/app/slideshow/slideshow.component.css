@@ -7,13 +7,25 @@
      background-color: transparent;
 }
 .modal.in .modal-dialog, .modal-content{
-     width: 1030px;
-     height: 674px;
+     position: fixed;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    bottom: 6%;
+    top: 6%;
 }
 .modal-body{
-     height: 93%;
+/*     height: 93%;
      max-height: none;
      overflow: hidden;
+*/
+     margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 10%;
+    position: absolute;
+   margin-bottom: -32px;
 }
 p.video_button {
      padding-bottom: 0px;
@@ -40,7 +52,7 @@ button.close.pull-right {
 }
 .slideshowModal{
      overflow: hidden;
-     top: 18%;
+     top: 10%;
 }
 .carousel-control{
      right:inherit;
