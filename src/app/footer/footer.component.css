@@ -11,7 +11,7 @@ a{
      cursor: pointer;
 }
 
-#sp-footer1 [class^="icon-"], [class*=" icon-"] {
+#sp-footer1 [class^="icon-"], [class*=" icon-"],#sp-footer1 [class^="fa-"], [class*=" fa-"] {
     position: absolute;
     top: 40px;
     margin-left: -12px;
